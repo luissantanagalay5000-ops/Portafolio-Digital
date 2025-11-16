@@ -1,0 +1,30 @@
+#Proyectos, 
+#Acerca_de,
+#Contactos ¨{
+    padding: 50px 0;
+}
+
+/* Acerca_de */
+#Acerca_de p 
+#acerca_de h4{
+    text-align: center;
+}
+#Acerca_de {
+    background: #f9f9f9;
+}
+
+
+.Acerca_de-detalles {
+    flex-wrap: wrap;
+}
+
+.Acerca_de_experiencias,
+.Acerca_de {
+width: 100%;
+padding-left: 0;
+}    
+
+/*Contactos */
+#Contactos p{
+    font-size: 14px;
+}

@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+style>
+/* Reinicio */
+
+* {
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+
+
+/* Estilo De Menu */
+
+html,
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+h2 {
+
+    font-size: 1.8rem;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    padding-bottom: 50px;
+
+}
+
+
+
+h4{
+
+    font-size: 1.3rem;
+
+    text-transform: uppercase;
+
+    padding-bottom: 20px;
+
+    font-weight: 500;
+
+}
+
+
+
+p {
+
+    font-size: 1rem;
+
+    margin: 10px 0;
+
+    line-height: 1.7em;
+
+}
+
+
+
+a{
+
+    text-decoration: none;
+
+}
+
+
+
+/* Estilo De Clases*/
+
+.container{
+
+    margin: auto;
+
+    max-width: 1100px;
+
+    overflow: auto;
+
+    padding: 0 20px;
+
+}
+
+
+
+.large{
+
+    font-size: 20px;
+
+}
+
+
+
+.btn {
+
+    display: inline-block;
+
+    font-size: 15px;
+
+    padding: 15px 40px;
+
+    letter-spacing: 1px;
+
+}
+
+.btn-outline {
+
+    background: transparent;
+
+    border: 1px solid #fff;
+
+    color: black;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+}
+
+
+
+.btn-outline:hover{
+
+    background: #fff;
+
+    color: black;
+
+}
+
+
+
+/*Barra De Navegador */
+
+#navbar {
+
+    overflow: auto;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+}
+
+#navbar a{
+
+    color: black;
+
+}
+
+#navbar .logo{
+
+    float: left;
+
+    padding-top: 16px;
+
+
+
+}
+
+
+
+#navbar img{
+
+    height: 40px;
+
+}
+
+
+
+#navbar ul{
+
+    list-style: none;
+
+    float: right;
+
+}
+
+
+
+#navbar ul li{
+
+    float: left;
+
+
+
+}
+
+
+
+#navbar ul li a{
+
+    display: block;
+
+    padding: 20px;
+
+    text-align: center;
+
+
+
+}
+
+/* Presentacion */
+
+#Presentacion {
+
+background: url(descarga-_45_.jpg);
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+background-size: cover;
+
+height: 500px;
+
+text-align: center;
+
+padding: 100px;
+
+}
+
+
+
+#Presentacion .btn{
+
+    margin-top: 250px;
+
+
+
+}
+
+
+
+/*Proyectos */
+
+#Proyectos{
+
+    padding: 80px 0;
+
+}
+
+
+
+.proyectos-detalles{
+
+    display: flex;
+
+}
+
+
+
+.proyectos-detalles img {
+
+    width: 100%;
+
+}
+
+
+
+/* Acerca_de */
+
+#Acerca_de {
+
+    padding: 80px 0;
+
+    background: #f9f9f9;
+
+}
+
+
+
+
+
+.Acerca_de-detalles {
+
+    display: flex;
+
+}
+
+
+
+.Acerca_de_experiencias,
+
+.Acerca_de {
+
+width: 50%;
+
+padding-left: 50px;
+
+}    
+
+
+
+/*Contactos */
+
+#Contactos {
+
+    padding: 80px 0;
+
+}
+
+
+
+.Contactos-row {
+
+    display: flex;
+
+}.Contactos-row-icono {
+
+    width: 33%;
+
+    text-align: center;
+
+
+
+}
+
+
+
+.Contactos-row-icono img {
+
+    height: 60px;
+
+
+
+}
+
+
+
+/* Footer */
+
+#mainfooter{
+
+    background: #f9f9f9;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+#mainfooter .instagram-Boton-Seguir {
+    display: inline-flex; 
+    align-items: center; 
+    color: #000; 
+    font-size: 14px;
+    padding: 5px 15px;
+    border: 1px solid #444; 
+    border-radius: 5px;
+}
+
+/* Estilo para la imagen del ícono dentro del enlace */
+#mainfooter .instagram-Boton-Seguir img {
+    height: 16px; 
+    margin-right: 8px; 
+    filter: invert(1); 
+}
+
+#mainfooter .instagram-Boton-Seguir:hover {
+    background: #1e1e1e; 
+}
